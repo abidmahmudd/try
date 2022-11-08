@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+    background-color: aqua;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.logo img{
+    height: 50px;
+    width: auto;
+}
+.menu{
+    padding: 10px;
+    color: 1px solid green;
+    font-size: 20px;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(173, 2, 2);
+    padding: 5px;
+}
+.menu a:hover{
+    color: rgb(43, 48, 48);
+    background: rgba(155, 175, 100, 0.767);
+}
+.slider{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(63, 58, 58, 0.8),rgba(197, 185, 185, 0.6)), url(./IMAGE/undraw_Educator_re_ju47.png);
+    background-repeat: no-repeat;
+    background-size: full;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+}
+.slider h1{
+    position: absolute;
+    top: 50%;
+    font-size: 40px;
+    color: rgb(38, 36, 41);
+}
+.slider p{
+    color: rgb(63, 60, 60);
+}
+.slider a{
+    border: 1px solid gold;
+    padding: 10px 25px; 
+    position: absolute;
+    top: 75%;
+    left: 44%;
+    text-decoration: none;
+    background: rgb(216, 60, 60);
+    color: aqua;
+    border-radius: 20px;
+}
+.slider a:hover{
+    color: rgb(88, 224, 140);
+    background: rgb(60, 130, 221);
+
+}
+.heropart{
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.heropart span{
+    color: tomato;
+}
+.diploma{
+    display: flex; 
+    gap:1% ;
+    width: 1200px;
+    height: 0 auto;
+    margin: 0 auto;
+    
+
+}
+.card{
+    display: grid;
+    justify-content: center;
+    padding: 40px;
+    background: rgb(202, 62, 62);
+    width: 24%;
+    box-sizing: border-box;
+}
+.card h2{
+    display: block;
+    padding: 5px;
+    
+}
+.card img{
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    border: solid tomato;
+    margin: auto;
+}
+.card p{
+    text-align: center;
+    padding: 4px;
+}
+.card a{
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid tomato;
+    background: rgb(161, 157, 157);
+    border-radius: 20px;
+    color: rgb(36, 32, 32);
+    
+    
+}

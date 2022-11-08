@@ -1,0 +1,228 @@
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    background-color: aqua;
+    }
+    .logo{
+        padding: 20px;
+        float: left;;
+    }
+    .logo img{
+        width: 60%;
+        height: 60%;
+    }
+    .menu{
+        float: right;
+        padding-top: 15px;
+    }
+    .menu ul{
+        list-style: none;
+    }
+    .menu ul li{
+        display:inline-block;
+    }
+    .menu ul li{
+        text-decoration: none;
+        font-size: 20px;
+        padding-right: 20px;
+    }
+    .menu ul li a:hover{
+        background-color: chartreuse;
+    }
+
+    /* header part end */
+    /* slider part start */
+    .slider{
+        width: 1200px;
+        height: 600px;
+        margin: 0 auto;
+        background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.6)), url(./IMAGE/undraw_Educator_re_ju47.png);
+        background-repeat: no-repeat;
+        background-size: full;
+        background-position: center;
+    }
+    .slider h1{
+        position: absolute;
+        top: 50%;
+        left: 44%;
+        color: rgb(180, 155, 155);
+        font: 60px;
+    
+    }
+    .slider p{
+        position: absolute;
+        top: 58%;
+        left: 44%;
+        color: rgb(180, 155, 155);
+        text-align: left;
+    
+    }
+    .slider a{
+        position: absolute;
+        top: 75%;
+        left: 44%;
+        text-decoration: none;
+        border: 1px solid whitesmoke;
+        padding: 10px 25px;
+        color: rgb(208, 35, 35);
+        font-size: 25px;
+        background-color: rgb(223, 189, 52);
+        border-radius: 20px;
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    /* slider part end */
+
+    
+    /* hero part start*/
+    .hero{
+        width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .service-title span{
+        color: rgb(178, 45, 45);
+        
+    }
+    .service-title{
+        text-align: center;
+        padding-top:20px ;
+    }
+    .service-box{
+        display: grid;
+        grid-template-columns:repeat(auto-fit,minmax(280px,auto));
+        gap: 5px;
+
+    }
+    .card{
+        text-align: center;
+        padding: 20px;
+        background-color: rgb(171, 175, 166);
+
+
+    }
+    .card img{
+        width: 50px;
+        height: 50px;
+        border: 2px solid tomato;
+        border-radius: 50%;
+    }
+    .card a{
+        border: 1px solid tomato;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 20px;
+        background-color: aqua;
+    }
+    .card a:hover{
+        color: rgb(227, 97, 97);
+        background-color: rgb(77, 85, 85);
+
+    }
+    .animate{
+        animation: 7s mov linear infinite;
+        position: relative;
+    }
+    @keyframes mov{
+        /* from{background-color: rgb(213, 58, 14);}
+        to{background-color: rgb(55, 163, 16);} */
+        0%   {background-color:red;}
+        25%  {background-color:yellow;}
+        50%  {background-color:blue;}
+        75%  {background-color:green;}
+        100% {background-color:red;}
+    }
+    /* hero part end*/
+    /* footer part start */
+    footer{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .footer-main{
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(380px,auto));
+        gap: 5px;
+    }
+    .block img{
+        padding-right: 10px;
+        width: 25px;
+        height: 25px;
+        position: relative;
+        top: 7px;
+
+    }
+    .block{
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(100, 100, 100);
+        display: grid;
+        grid-template-rows: repeat(auto-fit,minmax(10px,auto));
+
+    }
+   .block a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(72, 74, 79);
+   }
+   .block a:hover{
+    color: aqua;
+    background-color: blueviolet;
+   }
+
+    /* footer part end */
+    /* extra-footer-main start */
+    .extra-footer{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .extra-footer-main{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(33%,auto));
+        gap: .3%;
+        margin-top: .3%;
+    }
+    .extra-footer-card{
+        background-color: rgb(89, 85, 85);
+        padding: 20px;
+        display: grid;
+        grid-template-rows: repeat(auto-fit,minmax(10px,auto));
+    }
+    .extra-footer-card img{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 7px;
+        margin-right: 7px;
+    }
+    .extra-footer-card a{
+        text-decoration: none;
+        font-size: 18px;
+        color: rgb(18, 15, 15);
+        font-weight: 800;
+        position: relative;
+        left: 30%;
+
+
+
+        
+    }
+    .extra-footer-card h2{
+      text-align: center;
+      
+
+
+    }
+    .box img{
+        border: 1px solid gold;
+        padding: 5px;
+        top: 11px;
+    }
+    /* extra-footer-main end */
