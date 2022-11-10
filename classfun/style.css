@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: url(./image/bg_main.gif) center;
+}
+.cont{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+/* common css end */
+/* header part start */
+.topbar{
+    background-color: #9E5BBA;
+    height: 30px;
+    color: white;
+    font-size: 14px;
+    border-bottom: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    
+}
+.top-right p{
+    display: inline-block;
+    border-right: 1px solid whitesmoke;
+    padding-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+}
+
+.top-right a{
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    
+}
+.top-right p{
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+}
+/* header part end */
+
+/* logo part start */
+
+.logo{
+    height: 110px;
+ 
+}
+
+.logo-left{
+    line-height: 110px;
+    
+}
+
+.logo-scarch{
+    padding-top: 40px;
+}
+
+.logo-scarch input{
+    width: 65%;
+    padding: 5px;
+    font-size: 12px;
+}
+
+button{
+    font-size: 6px;
+    background-color: rgb(176, 176, 176);
+    color: rgb(41, 39, 39);
+    border: 1px solid rgb(95, 93, 93);
+}
+
+.logo-right{
+    padding-top: 30px;
+}
+
+.logo1{
+   border-right: 1px solid rgb(105, 95, 95);
+   padding-right: 5px;
+   height: 33px;
+   margin-top: 10px;
+}
+
+.logo2{
+padding-left: 5px;
+}
+
+.logo2 p{
+    margin-bottom: 1px;
+    font-size: 13px;
+}
+/* logo part end */
